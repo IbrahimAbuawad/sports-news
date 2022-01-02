@@ -1,0 +1,148 @@
+#container{
+    display: flex;
+    justify-content: space-between;
+    color:#192449;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#heroCont{
+    /* background-image: url('../../assets/undraw_grand_slam_0q5r.png') ; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+    min-width: 50%;  
+    max-width : 50%;
+    flex-grow: 1;
+}
+#heroCont img{
+    width: 100%;
+    height: 100%;
+}
+#contentContainer{
+    text-align: center;
+        padding-right: 40px;
+        flex-grow: 1;
+        max-width: 50%;
+        min-width: 50%;
+
+}
+#contentContainer h4{
+font-size: 16px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#number{
+
+/* padding: 1px 30px; */
+border: 1px solid #192449;
+text-align: center;
+/* font-size: 14px; */
+}
+#go{
+    position: relative;
+    left: 20px;
+    bottom: 1px;
+}
+
+#info{
+    text-align: left;
+font-size: 1em;
+padding: 0 100px 0 130px;
+/* margin-top: 40px; */
+font-size:15px ;
+}
+
+
+#choose{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+#choose p{
+    width: 70px;
+    border: 1px solid #192449;
+    /* margin-left: 1px; */
+    cursor: pointer;
+    
+}
+#choose p:hover{
+  background-color: #192449;
+  color: white;
+  transition: all 0.2s ease-in-out;
+    
+}
+#contentContainer button{
+    padding: 4px 130px;
+    border: 1px solid #192449;
+    background-color: #192449;
+    color: white;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+#contentContainer button:hover{
+    padding: 4px 130px;
+    border: none;
+    background-color: white;
+    color: #192449;
+    border: 1px solid #192449;
+    transition: all 0.2s ease-in-out;
+   
+}
+p span{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+    #info{
+       
+   
+    padding: 0 50px 0 60px;
+  
+    }
+}
+@media screen and (max-width: 786px) {
+    #container{
+        display: flex;
+        flex-direction: column;
+    }
+    #heroCont{
+  
+        min-width: 100%;  
+        max-width : 100%;
+    }
+    #info{
+       
+   
+        padding: 0 0px 0 px;
+      
+        }
+        #contentContainer{
+            text-align: center;
+                padding: 10px 20px;
+                flex-grow: 0;
+                max-width: 100%;
+                min-width: 100%;
+        
+        }
+        #contentContainer button{
+            padding: 4px 100px;
+            border: 1px solid #192449;
+            background-color: #192449;
+            color: white;
+            border-radius: 2px;
+            margin-bottom: 15px;
+        }
+        #contentContainer button:hover{
+            padding: 4px 100px;
+            border: none;
+            background-color: white;
+            color: #192449;
+            border: 1px solid #192449;
+            transition: all 0.2s ease-in-out;
+           
+        }
+}
+/*
+ #8AC44A Sushi - #192449 Big Stone - #34447C Chambery - #205060 Blue Dianne
+*/
